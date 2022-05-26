@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: '', sans-serif;
+    background: #E5E5E5;
+}
+
+header {
+    .container {
+        max-width: 1415px;
+        padding: 35px 105px 0 80px;
+    }
+}
+
+
+.main .container{
+    width: 470px;
+    min-height: 237px;
+}
+
+
+@import "base/general";
+@import "base/media";
+@import "base/mixins";
+@import "base/variables";
+@import "blocks/main";
